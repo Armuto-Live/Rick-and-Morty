@@ -33,7 +33,7 @@ export const Pagination = () => {
               </Button>
             )}
             {nextPage && (
-              <Button variant="contained" color="info" data-type="goTo" onClick={e=> {goToPage(nextPage,e)}} >
+              <Button variant="contained" color="info" data-type="next" onClick={e=> {goToPage(nextPage,e)}} >
                 Next
               </Button>
             )}
